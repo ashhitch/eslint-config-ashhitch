@@ -4,6 +4,10 @@ These are my settings for ESLint and Prettier
 
 Install
 
+```
+npx install-peerdeps --dev eslint-config-ashhitch 
+```
+
 Add to `.eslintrc`
 
 ```json
@@ -11,6 +15,7 @@ Add to `.eslintrc`
     "extends": ["ashhitch"]
 }
 ```
+
 
 ## My vs code settings.json config
 ``` json
