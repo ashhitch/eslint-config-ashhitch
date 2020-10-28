@@ -140,12 +140,6 @@ module.exports = {
     react: {
       pragma: 'React',
         version: 'detect', // Tells eslint-plugin-react to automatically detect the version of React to use
-    },
-    "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-        paths: ["./gatsby-theme-nvc/src", "./nvc/src"]
-      }
     }
 },
 };
