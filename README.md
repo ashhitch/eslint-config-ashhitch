@@ -5,7 +5,7 @@ These are my settings for ESLint and Prettier
 Install
 
 ```
-npx install-peerdeps --dev eslint-config-ashhitch 
+npx install-peerdeps --dev eslint-config-ashhitch
 ```
 
 Add to `.eslintrc`
@@ -16,9 +16,35 @@ Add to `.eslintrc`
 }
 ```
 
+### TypeScript
+
+In your `package.json`:
+
+```json
+
+  "eslintConfig": {
+    "extends": "eslint-config-ashhitch/typescript.js",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
+
+```
+
+```json
+Then make a `tsconfig.json` file:
+
+{
+  "extends": "eslint-config-ashhitch/tsconfig.json",
+  "include": [
+    "**/*"
+  ]
+}
+```
 
 ## My vs code settings.json config
-``` json
+
+```json
 {
     "editor.formatOnSave": true,
     "[javascript]": {
