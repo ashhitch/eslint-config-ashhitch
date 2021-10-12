@@ -53,8 +53,8 @@ module.exports = {
         'no-plusplus': 0,
         'no-use-before-define': 0,
         'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 2,
         'consistent-return': 0,
+        camelcase: 0,
         'react/display-name': 0,
         'react/no-array-index-key': 0,
         'react/react-in-jsx-scope': 0,
@@ -69,6 +69,7 @@ module.exports = {
                 extensions: ['.js', '.jsx', '.ts', '.tsx'],
             },
         ],
+        camelcase: 0,
         'no-shadow': [
             2,
             {
