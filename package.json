@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-ashhitch",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "description": "ESLint and Prettier Config with TypeScript Support",
     "main": "index.js",
     "repository": "git@github.com:ashhitch/eslint-config-ashhitch.git",
